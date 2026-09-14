@@ -1,0 +1,17 @@
+# Hugo build output
+/public/
+/resources/
+.hugo_build.lock
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# R / blogdown (only if you also use RStudio)
+.Rproj.user/
+.Rhistory
+cache/
+
+# local theme clone (fetched at build time)
+/themes/hugo-apero/
