@@ -12,18 +12,18 @@ links:
     url: "https://orcid.org/0000-0000-0000-0000"
   - icon: "github"
     icon_pack: "fab"
-    url: "https://github.com/yourusername"
+    url: "https://github.com/hefugang"
 ---
 
-## Hi, I'm Your Name 👋
+## Hi, I'm Dr. Ho 👋
 
-I am a researcher at **Your University**, working on topic areas that matter to me.
+I am a researcher at **ppsuc**, working on topic areas that matter to me.
 Replace this paragraph with 2–3 sentences about your research and what you care about.
 
 ### Education
 
-- **PhD**, Field of Study, University Name, Year
-- **MS**, Field of Study, University Name, Year
+- **PhD**, Distance Education, BNU, 2009
+- **MS**, Field of Study, BNU, 2003
 
 ### Research interests
 

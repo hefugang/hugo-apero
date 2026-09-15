@@ -1,8 +1,8 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Your Name · Academic Site"
-author = "Your Name"
+title = "PTIC Lab · Academic Site"
+author = "PTIC "
 copyright = "" # leave empty to auto-generate from org info + year
 googleAnalytics = ""
 metaDataFormat = "yaml"
@@ -27,9 +27,9 @@ enableEmoji = true
     style = "github"
 
 [params]
-  orgName = "Your University"
-  orgLocal = "City, Country"
-  description = "Academic homepage of Your Name — research, publications, talks, and teaching."
+  orgName = "PPSUC"
+  orgLocal = "BJ, CHINA"
+  description = "Academic homepage of PTIC  — research, publications, talks, and teaching."
   favicon = "/img/favicon.ico"
   logo = "/img/logo.png"
   mainSections = ["blog", "project", "talk"]
@@ -43,7 +43,7 @@ enableEmoji = true
 
   # built-in color theme: earth / forest / grayscale / magma / paper / peach /
   #                    plum / poppy / primer / sky / violet / water
-  theme = "sky"
+  theme = "forest"
 
   # embedded font families (keep these or switch to system fonts below)
   customtextFontFamily = "Commissioner"
@@ -61,7 +61,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "github"
       icon_pack = "fab"
-      url       = "https://github.com/yourusername"
+      url       = "https://github.com/hefugang"
   [[params.social]]
       icon      = "google-scholar"
       icon_pack = "ai"
@@ -73,7 +73,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "envelope"
       icon_pack = "fas"
-      url       = "mailto:you@example.edu"
+      url       = "mailto:hefugang@ppsuc.edu.cn"
   [[params.social]]
       icon      = "rss"
       icon_pack = "fas"
@@ -94,7 +94,7 @@ enableEmoji = true
     url = "/project/"
     weight = 2
   [[menu.header]]
-    name = "Talks"
+    name = "News"
     url = "/talk/"
     weight = 3
   [[menu.header]]
