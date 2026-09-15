@@ -17,7 +17,14 @@ echo "==> Cloning hugo-apero theme (latest main)..."
 rm -rf themes/hugo-apero
 git clone --depth 1 --branch main https://github.com/hugo-apero/hugo-apero.git themes/hugo-apero
 
-# Use Netlify's deploy URL when available, otherwise fall back to "/".
-BASEURL="${DEPLOY_PRIME_URL:-${URL:-/}}"
-echo "==> Building with baseURL=${BASEURL}"
+# Canonical site URL: always used for production AND branch deploys so that
+# internal links and og:url never fall back to a branch-deploy host such as
+# main--pt-ic.netlify.app. Only deploy previews use their own URL.
+CANONICAL_URL="https://pt-ic.netlify.app"
+if [ "${CONTEXT:-production}" = "deploy-preview" ]; then
+  BASEURL="${DEPLOY_PRIME_URL:-$CANONICAL_URL}"
+else
+  BASEURL="$CANONICAL_URL"
+fi
+echo "==> Building with baseURL=${BASEURL} (context=${CONTEXT:-production})"
 /tmp/hugo --gc --minify -b "$BASEURL"

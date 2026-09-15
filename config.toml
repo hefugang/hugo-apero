@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://pt-ic.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "PTIC Lab · Academic Site"
@@ -38,7 +38,7 @@ enableEmoji = true
   socialInHeader = false
   socialInFooter = true
   # Default image for social sharing (place the file in static/img/)
-  sharing_image = "/img/share.jpg"
+  sharing_image = "/img/share.png"
   twitter = "yourhandle"
 
   # built-in color theme: earth / forest / grayscale / magma / paper / peach /
