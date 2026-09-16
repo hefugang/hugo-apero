@@ -5,7 +5,7 @@ type: "license"
 layout: "single"
 ---
 
-Site content © Your Name. Unless otherwise noted, text is licensed under
+Site content © Dr.Ho. Unless otherwise noted, text is licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 The [Hugo Apéro](https://github.com/hugo-apero/hugo-apero) theme is licensed

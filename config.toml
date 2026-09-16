@@ -2,7 +2,7 @@ baseURL = "https://pt-ic.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "PTIC Lab · Academic Site"
-author = "PTIC "
+author = "PTIC"
 copyright = "" # leave empty to auto-generate from org info + year
 googleAnalytics = ""
 metaDataFormat = "yaml"
@@ -94,7 +94,7 @@ enableEmoji = true
     url = "/project/"
     weight = 2
   [[menu.header]]
-    name = "News"
+    name = "Talks"
     url = "/talk/"
     weight = 3
   [[menu.header]]

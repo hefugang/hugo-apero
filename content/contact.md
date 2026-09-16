@@ -5,11 +5,11 @@ type: "contact"
 layout: "single"
 ---
 
-**Email:** [you@example.edu](mailto:you@example.edu)
+**Email:** [hefugang@ppsuc.edu.cn](mailto:hefugang@ppsuc.edu.cn)
 
 **Office:** Building Name, Room 123, Your University
 
-**Mailing address:** Department of X, University, City, Country
+**Mailing address:** Department of ET, University, Bj, China
 
 > 💡 Want a form instead of a plain email link? The Hugo Apéro theme supports a
 > [Formspree](https://formspree.io/) contact form — see the
