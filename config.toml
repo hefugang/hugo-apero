@@ -32,9 +32,9 @@ enableEmoji = true
   description = "Academic homepage of PTIC  — research, publications, talks, and teaching."
   favicon = "/img/favicon.ico"
   logo = "/img/logo.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project", "talk", "publication"]
   navallcaps = true
-  # show/hide social icons in site header & footer
+  # show/hide social icons in site header & footer  主题只提供前3个sections，主菜单加了出版byhe可能用缺省sections或类似about，下面menu头部contact改成了publication
   socialInHeader = false
   socialInFooter = true
   # Default image for social sharing (place the file in static/img/)
@@ -102,8 +102,8 @@ enableEmoji = true
     url = "/blog/"
     weight = 4
   [[menu.header]]
-    name = "Contact"
-    url = "/contact/"
+    name = "Publications"
+    url = "/publication/"
     weight = 5
   [[menu.footer]]
     name = "License"
