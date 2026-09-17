@@ -1,9 +1,9 @@
 ---
-title: "Sample Research Project"
+title: "Distance Education"
 summary: "A short, plain-language summary of what this project is about."
-date: 2026-01-15
+date: 2007-04-05
 type: "project"
-layout: "single"
+layout: "single-sidebar"
 links:
   - icon: github
     icon_pack: fab
@@ -24,7 +24,9 @@ math with Katex, e.g. the familiar $E = mc^2$, and code blocks:
 def hello(name: str) -> str:
     return f"Hello, {name}!"
 ```
+Since 2007 to 2014,The team 小侯从这里开始7篇文章，可把cnki发给AI综述。
 
+可提供文章中只要图表...
 ## Results
 
 Add figures, tables, and links to data or preprints. Place image files in
