@@ -26,7 +26,10 @@ def hello(name: str) -> str:
 ```
 Since 2007 to 2014,The team 小侯从这里开始7篇文章，可把cnki发给AI综述。
 
-可提供文章中只要图表...
+可提供文章中主要图表...比如
+![行人智能体](feature-768x512.jpg)
+
+
 ## Results
 
 Add figures, tables, and links to data or preprints. Place image files in
