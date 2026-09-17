@@ -3,7 +3,7 @@ title: "Police Training Practice"
 summary: "A short, plain-language summary of what this project is about."
 date: 2026-01-15
 type: "project"
-layout: "single"
+layout: "single-sidebar"
 links:
   - icon: github
     icon_pack: fab
