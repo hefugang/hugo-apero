@@ -1,0 +1,136 @@
+baseURL = "https://pt-ic.netlify.app/"
+theme = "hugo-apero"
+languageCode = "en"
+title = "PTIC Lab · Academic Site"
+author = "PTIC"
+copyright = "" # leave empty to auto-generate from org info + year
+googleAnalytics = ""
+metaDataFormat = "yaml"
+footnoteReturnLinkContents = "&#8617;"
+
+[pagination]
+  pagerSize = 5
+
+preserveTaxonomyNames = true
+enableEmoji = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true
+    hardwraps = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
+  [markup.highlight]
+    style = "github"
+
+[params]
+  orgName = "PPSUC"
+  orgLocal = "BJ, CHINA"
+  description = "Academic homepage of PTIC  — research, publications, talks, and teaching."
+  favicon = "/img/favicon.ico"
+  logo = "/img/logo.png"
+  mainSections = ["blog", "project", "talk", "publication"]
+  navallcaps = true
+  # show/hide social icons in site header & footer  主题只提供前3个sections，主菜单加了出版byhe可能用缺省sections或类似about，下面menu头部contact改成了publication
+  socialInHeader = false
+  socialInFooter = true
+  # Default image for social sharing (place the file in static/img/)
+  sharing_image = "/img/share.png"
+  twitter = "yourhandle"
+
+  # built-in color theme: earth / forest / grayscale / magma / paper / peach /
+  #                    plum / poppy / primer / sky / violet / water
+  theme = "forest"
+
+  # embedded font families (keep these or switch to system fonts below)
+  customtextFontFamily = "Commissioner"
+  customheadingFontFamily = "Fraunces"
+  textFontFamily = "sans-serif"
+  headingFontFamily = "sans-serif"
+
+  # comments: set to "" to disable, or "utterances" / "giscus"
+  comments = ""
+
+  [params.math]
+    renderer = "katex" # one of "mathjax" / "katex"
+
+  # Social icons (Font Awesome + Academicons). Replace URLs with your own.
+  [[params.social]]
+      icon      = "github"
+      icon_pack = "fab"
+      url       = "https://github.com/hefugang"
+  [[params.social]]
+      icon      = "google-scholar"
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=XXXX"
+  [[params.social]]
+      icon      = "orcid"
+      icon_pack = "ai"
+      url       = "https://orcid.org/0000-0000-0000-0000"
+  [[params.social]]
+      icon      = "envelope"
+      icon_pack = "fas"
+      url       = "mailto:hefugang@ppsuc.edu.cn"
+  [[params.social]]
+      icon      = "rss"
+      icon_pack = "fas"
+      url       = "/blog/index.xml"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[menu]
+  [[menu.header]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.header]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+  [[menu.header]]
+    name = "Talks"
+    url = "/talk/"
+    weight = 3
+  [[menu.header]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.header]]
+    name = "Publications"
+    url = "/publication/"
+    weight = 5
+  [[menu.footer]]
+    name = "License"
+    url = "/license/"
+    weight = 1
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+
+# GDPR / privacy toggles
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.x]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

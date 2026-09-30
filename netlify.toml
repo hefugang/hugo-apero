@@ -1,0 +1,13 @@
+[build]
+  # Build is handled by build.sh, which installs an extended Hugo and clones the
+  # theme at build time (the theme is NOT committed to this repo).
+  command = "chmod +x build.sh && ./build.sh"
+  publish = "public"
+
+[build.environment]
+  # Pinned to the version the Hugo Apéro theme's own CI uses (has built-in Sass).
+  HUGO_VERSION = "0.126.1"
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "chmod +x build.sh && ./build.sh"
