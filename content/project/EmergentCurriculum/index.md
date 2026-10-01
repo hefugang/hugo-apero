@@ -3,19 +3,28 @@ title: "Emergent Curriculum Development for Practical Training（2015-2019）"
 subtitle: "Emergent Curriculum "
 summary: "This project explores how police training courses can be built online from officers’ real cases and experience, and improved through repeated training rounds."
 date: 2015-07-01
-author: "Eric Anderson"
+author: "Dr. Ho"
 draft: false
 tags:
-  - hugo-site
-categories:
-  - Theme Features
   - EC
+  - connectivism
+  - course development
+  - practical training
+  - moodle
+  - internet plus
+
+categories:
+  - Online Education
+  - Distance Education
+  - Education technolegy
+  - Police Training
+
 layout: single
 links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://bakeoff.netlify.com/
+  url: https://read.douban.com/contributor/76919/
 - icon: github
   icon_pack: fab
   name: code

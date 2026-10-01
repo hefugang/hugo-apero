@@ -2,17 +2,35 @@
 title: "Distance Education（2007-2014）"
 summary: "This project summarizes He Fugang’s 2007–2014 research on technology-enhanced learning and shows how his ideas can improve police academy teaching, online training, and digital classroom management."
 date: 2007-04-05
+author: "Dr. Ho"
+draft: false
+tags:
+  - MOOC
+  - mLearning
+  - PLE
+  - PLN
+  - information ecological system
+  - one-to-one computing learning
+  - learning activity
+  - blending learning
+
+categories:
+  - Online Education
+  - Distance Education
+  - Education technolegy
+  - Police Training
+
 type: "project"
 layout: "single-sidebar"
 links:
   - icon: github
     icon_pack: fab
-    name: code
-    url: 'https://github.com/yourusername'
+    name: moodle
+    url: 'https://github.com/moodle'
   - icon: doi
     icon_pack: ai
     name: paper
-    url: 'https://doi.org/10.0000/00000'
+    url: 'https://www.cnki.net'
 ---
 
 ## Overview
@@ -24,10 +42,6 @@ links:
 - **Outcomes:** It proposes activity-centered web course design, teacher facilitation skills for blended learning, ecological strategies for one-to-one network classroom management, and practical guidance for police academy digital instruction, online training, and academy-family collaboration. Together, these outcomes offer a systematic framework for technology-enhanced police education.
 
 
-```python
-def hello(name: str) -> str:
-    return f"Hello, {name}!"
-```
 Since *2007 to 2014*, The team’s research traces a coherent trajectory in technology-enhanced learning: from web-based course design and blended teaching to personal learning networks, ecological classroom management, one-to-one digital learning, and mobile/social/open learning. Central concerns include learner-centered design, effective interaction, teacher roles, and sustainable environments.
 
 Early work focuses on online course quality and blended teaching. “Design and Study of Learning Activity for Web-based Course” (2007) argues for activity-centered rather than resource-centered web courses, using cognitive and metacognitive strategies to promote deep learning. “New Requirements of Teacher Skills in Blended Teaching” (2008) reframes blended learning as teacher-led and student-centered, requiring teachers to facilitate deep learning, interaction, process management, and environment design.
@@ -47,6 +61,6 @@ His translations broaden the international dimension: the 2012 translation on mo
 
 
 ## Results
-
-Add figures, tables, and links to data or preprints. Place image files in
-`static/img/` and reference them with a leading slash: `![caption](/img/figure.png)`.
+Participate in the construction project of “the National Public Security Police Network Academy”,
+Related projects to “the Senior Police Academy of the Ministry of Public Security”.
+加图表： `![caption](/img/figure.png)`.
