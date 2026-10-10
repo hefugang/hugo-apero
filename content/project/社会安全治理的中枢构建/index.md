@@ -3,6 +3,21 @@ title: "社会安全治理的中枢构建"
 summary: "A short, plain-language summary of what this project is about."
 date: 2026-09-15
 type: "project"
+
+author: "Dr. Ho"
+featured: true
+draft: false
+tags:
+  - police command center
+  - governance
+  - ai plus
+  - UAV
+
+categories:
+  - Public Security Administration
+  - Police Command
+  - Police Training
+
 layout: "single"
 links:
   - icon: github

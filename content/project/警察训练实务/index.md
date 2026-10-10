@@ -3,12 +3,29 @@ title: "Police Training Practice(2019-)"
 summary: "A short, plain-language summary of what this project is about."
 date: 2026-01-15
 type: "project"
+
+author: "Dr. Ho"
+featured: true
+draft: false
+tags:
+  - physical fitness
+  - pistol
+  - water rescue
+  - practical training
+  - UAV
+
+categories:
+  - Online Education
+  - Police Tactics
+  - Police Training
+  
+
 layout: "single-sidebar"
 links:
-  - icon: github
-    icon_pack: fab
-    name: code
-    url: 'https://github.com/yourusername'
+ - icon: newspaper
+    icon_pack: far
+    name: Blog post
+    url: http://www.phcppsu.com.cn/filedown/down/2026-%E9%87%8D%E7%82%B9%E4%B9%A6%E6%96%B0%E4%B9%A6%E5%9B%BE%E4%B9%A6%E7%9B%AE%E5%BD%95.pdf
   - icon: doi
     icon_pack: ai
     name: paper
