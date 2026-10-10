@@ -22,7 +22,7 @@ categories:
 
 layout: "single-sidebar"
 links:
- - icon: newspaper
+  - icon: newspaper
     icon_pack: far
     name: Blog post
     url: http://www.phcppsu.com.cn/filedown/down/2026-%E9%87%8D%E7%82%B9%E4%B9%A6%E6%96%B0%E4%B9%A6%E5%9B%BE%E4%B9%A6%E7%9B%AE%E5%BD%95.pdf
