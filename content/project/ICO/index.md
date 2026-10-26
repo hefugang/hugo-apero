@@ -1,130 +1,103 @@
 ---
-title: "Research on the Integration of Intelligence, Command, and Operations(2019-)"
-subtitle: "A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that always moves faster than light."
-excerpt: "Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It’s a design system that provides very small (which means fast) CSS modules that you can use in your HTML."
+title: "Research on the Integration of Intelligence, Command, and Operations (2019–)"
+subtitle: "Intelligence, Command & Operations"
+excerpt: "Research on intelligence requirements, command decisions, operational feedback and commander development in coordinated policing."
 date: 2019-07-03
+lastmod: 2026-10-15
 author: "Dr. Ho"
 featured: true
 draft: false
-tags:
-  - policing
-  - practical training
-  - UAV
-
-categories:
-  - Public Security Intelligence
-  - Police Command
-  - Police Training
-  
-# layout options: single or single-sidebar
-layout: single
+layout: research
+tags: [intelligence, command, operations]
+categories: ["Public Security Intelligence", "Police Command", "Police Training"]
+show_post_date: false
+description: "PTIC research on intelligence–command–operations integration: framework, decision processes, a related project, publications and applications."
 ---
 
-![Tachyons Logo Script](tachyons-logo-script.png)
+## Project overview
 
-## [Tachyons](http://tachyons.io) is a design system that allows you to design gorgeous interfaces in the browser with little effort.
+This research direction examines coordination between intelligence, command and operations in policing. Operational tasks define intelligence requirements; assessed information supports command decisions; feedback from action helps revise assessments and plans. Lessons from completed responses can then become resources for training and review.
 
----
+The work brings together the organisation of intelligence and command centres, models of police decision making, and commanders' knowledge and competencies. The sections below distinguish the research framework from the outputs of a related, individually documented project.
 
-### Because Speed
+## Background and objectives
 
-Building this static site generator theme was the first time I used an Atomic
-(or Functional) CSS system like Tachyons. It's a design system that provides
-very small (which means fast) CSS modules that you can use in your HTML. So,
-rather than writing every line of CSS, you apply the style you need as you write
-your HTML with easy to understand shorthand class names. This makes for a very
-powerful way to style, in the browser, or while building a static site like this
-one – since you can see every change with every save. **It's a joy to use.**
+Intelligence and command departments undertake analysis, early warning, dispatch and emergency duty. Digital systems need to be connected to operational responsibilities, staff competencies and coordination mechanisms so that assessment, decision making and response form a continuing feedback process.
 
-In using this theme for your next static website project, you won't need to know
-anything about Tachyons ... so, don't freak out. Even though I used it to style
-the theme, you won't need to change a thing. BUT, if you do want to play around
-with it, you can make massive changes very easily. Just familiarize yourself
-with the [clear documentation on the design system](http://tachyons.io/docs/).
-Once you dive in, you'll recognize all the classes I'm using in the markup.
+- **Intelligence for decisions:** identify the information required by a task and connect collection, assessment, sharing and use.
+- **Command linked to action:** study coordination between decision makers and responding personnel, including feedback and adjustment.
+- **Training for operational roles:** use competency requirements, duty positions and knowledge structures to inform courses and practical training.
 
-### BYOTachyons
+## Research framework
 
-One of the best features of Tachyons is the exhaustive [component
-library](https://www.tachyonstemplates.com/components/?selectedKind=AboutPages&selectedStory=AboutUs&full=0&down=0&left=1&panelRight=0)
-contributed by the community. All those components are built to work with the
-Tachyons classes, so they will work in this theme too! You can copy/paste
-components in order to quickly block out a page, then fill in your content.
+{{< ico-pillars >}}
 
-### Taste the Rainbow
+### Intelligence requirements and flows
 
-We've leveraged the [accessible color
-combinations](http://tachyons.io/docs/themes/skins/) included with Tachyons to
-offer an easy way for you to setup your site using your favorite colors. In the
-site configuration file (`config.toml`), there is a full set of color parameters
-giving you control over the theme color scheme. For an option like `siteBgColor`
-for example, you can just type one of the predefined color names from Tachyons
-and save the file. You can totally customize the theme colors within minutes of
-installing the theme.
+He Fugang's public research slides present intelligence requirements across intelligence, command and operations dimensions and describe the use of the Delphi method to construct an indicator system. Starting from what decision makers need to know, the research connects collection and assessment to the command task.[1]
 
-```toml
-# basic color options: use only color names as shown in the
-# "Color Palette" section of http://tachyons.io/docs/themes/skins/
-siteBgColor = "near-white"
-sidebarBgColor = "light-gray"
-headingColor = "black"
-textColor = "dark-gray"
-sidebarTextColor = "mid-gray"
-bodyLinkColor = "blue"
-navLinkColor = "near-black"
-sidebarLinkColor = "near-black"
-footerTextColor = "silver"
-buttonTextColor = "near-white"
-buttonBgColor = "black"
-buttonHoverTextColor = "white"
-buttonHoverBgColor = "blue"
-borderColor = "moon-gray"
-```
+### Intelligent command decision making
 
-### Dig Deeper
+The slides identify intelligence flows, technology and mechanisms as the main elements of an intelligent police command decision model. Technology provides support, mechanisms organise cooperation, and intelligence flows connect requirements, assessment, sharing, plan selection, operational feedback and case-based review.[1]
 
-Let's say you have a style guide to follow and `washed-blue` just won't cut the
-mustard. We built Blogophonic for you, too. There is a bypass of these
-predefined colors built in, you just need to dig a little deeper. In the theme
-assets, locate and open the main SCSS file (`/assets/main.scss`). After the
-crazy looking variables you probably don't recognize and directly following the
-Tachyons import (`@import 'tachyons';`) you'll see a comment that looks just
-like this:
+### Commanders' knowledge and competencies
 
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-// @import 'custom-colors';
-```
+The research starts from role-specific tasks and competency requirements to organise commanders' knowledge and explore support for personalised learning through knowledge graphs. The slides describe validation involving expert and operational-commander review and the Delphi method.[1]
 
-Once you uncomment the `custom-colors` import, it will look like this:
+## From intelligence needs to operational feedback
 
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-@import "custom-colors";
-```
+{{< ico-figure kind="feedback" >}}
 
-Save that change, and now the color options in the `config.toml` are no longer
-active – they've been bypassed. To customize the colors, locate and open the
-`custom-colors` file found in the theme assets (`/assets/custom-colors.scss`).
-At the top of that file, you'll find a whole new set of variables for all the
-same color options, but this time you get to assign your own HEX codes.
+{{< ico-loop >}}
 
-```scss
-// set your custom colors here
-$siteBgColorCustom: #e3e3da;
-$sidebarBgColorCustom: #dbdbd2;
-$textColorCustom: #666260;
-$sidebarTextColorCustom: #666260;
-$headingColorCustom: #103742;
-$bodyLinkColorCustom: #c4001a;
-$navLinkColorCustom: #c4001a;
-$sidebarLinkColorCustom: #c4001a;
-$footerTextColorCustom: #918f8d;
-$buttonTextColorCustom: #f7f7f4;
-$buttonHoverTextColorCustom: #f9f9f8;
-$buttonBgColorCustom: #103742;
-$buttonHoverBgColorCustom: #c4001a;
-$borderColorCustom: #c4beb9;
-```
+This diagram summarises the decision model in the public research slides. Problems emerging during an operation return to the decision-making process; evaluation and reflection after the response contribute to case resources for future decisions and training.[1]
+
+## Related project: commander training in an intelligent command centre
+
+**Project:** Research on practical training and assessment standards for police commanders in intelligent command centres\
+**Programme:** Police theory and soft-science research programme\
+**Project ID:** 2020LLYJGADX014\
+**Institution:** People's Public Security University of China\
+**Project leads:** Jianli Liu and Fugang He\
+**Planned contract period:** 1 August 2020 to 31 December 2021
+
+The project examines practical training and assessment standards through command-centre development, personnel competencies and operational role design. Its acceptance report records three main areas of work:[2]
+
+| Research area | Main questions |
+| --- | --- |
+| Intelligence and command centre development | Functional requirements at provincial, municipal and county levels, connections between those levels, and links between field applications and operational feedback |
+| Commander competencies and a proposed curriculum | Competencies needed for different duties and tasks, and the development of corresponding courses |
+| Operational roles and standards | Roles for overall decision making, integrated command, analytical support and operational response under routine and emergency conditions |
+
+{{< ico-figure kind="training" >}}
+
+### Outputs and application
+
+The acceptance material records completion of these three areas and the production of one paper and one research report. The expert opinion dated 10 November 2022 agreed that the project had passed acceptance. The scientific and technological achievement registration certificate is dated 11 April 2023.[2]
+
+The report records a contribution to the development of the university's police command and tactics programme. It also describes a university–industry command and control laboratory supporting research and training. The experts noted that wider application in police intelligence and command centres still required further promotion.[2]
+
+This is an individual project with its own identifier and acceptance record. Its acceptance date does not mark the end of the wider intelligence–command–operations research direction.
+
+## Related publications and materials
+
+- **An indicator system for police command decision intelligence requirements from an intelligence-flow perspective** — Fugang He, Zexuan Yong and Nanying Yang; Journal of Intelligence, 2023.
+- **An intelligent police command decision model oriented towards operational practice** — Fugang He and Zexuan Yong; Journal of Intelligence, 2023.
+- **Knowledge-graph-based personalised learning for police operational commanders** — Fugang He and Sijia Zhou; Fire Control & Command Control, 2023.
+- **Reform of intelligence–command–operations integration from a synergetics perspective: a case study of County D** — Xianfu Mo and Fugang He; Journal of Guangxi Police College, 2021, 34(6): 104–111.
+
+English titles for Chinese papers are translations for navigation. Research descriptions drawn from the author's slides are content summaries rather than original journal abstracts. See the [publication records](/publication/) for original titles, bibliographic details and source notes.
+
+## Further research
+
+The acceptance experts recommended further implementation of command-centre development proposals and examination of insights from intelligent intelligence and command centres outside China. Building on the existing work, further questions include the fit between competencies and operational roles, feedback between decisions and action, and continuing development of courses and case resources.[2]
+
+Directions for further work are presented separately from completed outputs.
+
+## References
+
+1. He Fugang, *Research on intelligence–command–operations integration*, public research slides. See PDF pages 33–34, 38 and 46. [View the public slides](https://hefugang.github.io/speech/%E2%80%9D%E6%83%85%E6%8C%87%E8%A1%8C%E2%80%9C%E4%B8%80%E4%BD%93%E5%8C%96%E7%A0%94%E7%A9%B6.pdf).
+2. Acceptance evaluation report and achievement registration certificate for *Research on practical training and assessment standards for police commanders in intelligent command centres*, project 2020LLYJGADX014. Research and output information is summarised here; original administrative materials remain in the local reference collection.
+3. Bibliographic and summary collection for He Fugang's Chinese and foreign-language papers, 14 October 2026. Used as a bibliographic lead collection, with source-based summaries and original abstracts distinguished.
+
+[Meet the material-review participant: Jin Mingxin](/team/jin-mingxin/) · [All projects](/project/)
