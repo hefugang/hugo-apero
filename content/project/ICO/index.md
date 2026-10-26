@@ -48,6 +48,10 @@ The research starts from role-specific tasks and competency requirements to orga
 
 This diagram summarises the decision model in the public research slides. Problems emerging during an operation return to the decision-making process; evaluation and reflection after the response contribute to case resources for future decisions and training.[1]
 
+
+![From intelligence needs to operational feedback](operational-feedback.png)
+
+
 ## Related project: commander training in an intelligent command centre
 
 **Project:** Research on practical training and assessment standards for police commanders in intelligent command centres\
@@ -65,6 +69,8 @@ The project examines practical training and assessment standards through command
 | Commander competencies and a proposed curriculum | Competencies needed for different duties and tasks, and the development of corresponding courses |
 | Operational roles and standards | Roles for overall decision making, integrated command, analytical support and operational response under routine and emergency conditions |
 
+
+![commander-training](commander-training.png)
 
 ### Outputs and application
 
