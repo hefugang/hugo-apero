@@ -30,7 +30,7 @@ Intelligence and command departments undertake analysis, early warning, dispatch
 
 ## Research framework
 
-{{< ico-pillars >}}
+Intelligence–command–operations integration: framework, decision processes, a related project, publications and applications.
 
 ### Intelligence requirements and flows
 
