@@ -46,8 +46,6 @@ The research starts from role-specific tasks and competency requirements to orga
 
 ## From intelligence needs to operational feedback
 
-{{< ico-figure kind="feedback" >}}
-
 {{< ico-loop >}}
 
 This diagram summarises the decision model in the public research slides. Problems emerging during an operation return to the decision-making process; evaluation and reflection after the response contribute to case resources for future decisions and training.[1]
